@@ -8,11 +8,17 @@ body {
   margin: 0 auto;
   position: relative;
   font-family: "Compacta BT";
-  background-color: blue;
   color: white;
+  background-color: blue;
+
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 255) 92%,
+    rgba(255, 255, 255, 1) 98%
+  );
 }
 
-/* body::after {
+/* body::before {
   width: 1280px;
   height: 5846px;
   content: "";
@@ -20,7 +26,7 @@ body {
   top: 0;
   left: 0;
   background-image: url("/images/website.png");
-  opacity: 0.4;
+  opacity: 0.3;
 } */
 
 section {
@@ -43,6 +49,13 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   text-transform: uppercase;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
 }
 
 .aligner {
@@ -291,4 +304,27 @@ p {
   position: absolute;
   top: 330px;
   right: -100px;
+}
+
+.section-6 {
+  height: 724px;
+
+  padding-top: 40vh;
+}
+
+.section-6 h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 385px;
+  letter-spacing: -13px;
+
+  -webkit-text-stroke: 3px blue;
+  color: rgba(0, 0, 0, 0);
+  line-height: 0.4;
+  position: absolute;
+}
+
+.section-6 .header {
+  align-items: end;
 }
